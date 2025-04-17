@@ -9,14 +9,15 @@
     background-color: rgb(28, 102, 146);
     height: 100px;
     width: auto; 
+    
+}
+.container{
+    max-width: 760px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.container{
-    max-width: 960px;
-    margin: auto;
- 
+    
 }
 
 .header--logo{
@@ -29,13 +30,13 @@
     align-items: center;
     bottom: -20px;
     position: relative;
+    margin-right: 20px;
 }
 
 .header--nav-bar{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 0%;
+    justify-content: flex-end;
     list-style: none;
     color: #fff;
     
@@ -44,23 +45,23 @@
 .header--nav-bar--items_change{
     background-color: rgb(73, 119, 198);
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding: 10px;
-    margin-right: 40px;
+    margin-left: 15px;
     cursor: pointer;
 }
 
 .header--nav-bar--items{
     background-color: rgb(23, 44, 79);
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding: 10px;
-    margin-right: 40px;
+    margin-left: 15px;
     cursor: pointer;
 }
 .container--presentacion{
+    max-width: 760px;
     margin: auto;
-    width: 700px;
 }
 .presentacion-principal{
     margin-top: 50px;
@@ -94,7 +95,7 @@
     display: flex;
     justify-content: space-between;
     height: 150px;
-    gap: 80px;
+    gap: 100px;
 }
 .poemas{
     font-size: 10px;
